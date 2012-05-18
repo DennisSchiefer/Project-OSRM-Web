@@ -17,6 +17,7 @@ or see http://www.gnu.org/licenses/agpl.txt.
 
 // OSRM localization
 // [Polish language support]
+// Translator: Zbigniew Czernik
 
 
 OSRM.Localization["pl"] = {
@@ -64,14 +65,14 @@ OSRM.Localization["pl"] = {
 //printing
 "OVERVIEW_MAP": "Mapa poglądowa",
 // directions
-"N": "północ",
-"E": "wschód",
-"S": "południe",
-"W": "zachód",
-"NE": "północny wschód",
-"SE": "południowy wschód",
-"SW": "południowy zachód",
-"NW": "połnocny zachód",
+"N": "na północ",
+"E": "na wschód",
+"S": "na południe",
+"W": "na zachód",
+"NE": "na północny wschód",
+"SE": "na południowy wschód",
+"SW": "na południowy zachód",
+"NW": "na połnocny zachód",
 // driving directions
 // %s: road name
 // %d: direction
