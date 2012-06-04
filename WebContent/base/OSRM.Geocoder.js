@@ -65,6 +65,36 @@ _onclickResult: function(marker_id, lat, lon) {
 },
 
 
+// filter default place in Nominatim's response
+_getDefaultPlace: function(response) {
+	// preferred classes
+	var preferred = ['place', 'tourism', 'amenity', 'railway'] ;
+	var pref_order = new Array();
+	pref_order['place'] = ['country', 'state', 'city', 'town', 'county', 'village', 'hamlet'];
+	pref_order['railway'] = ['station'];
+
+	for (var p=0; p < preferred.length; p++) {
+		if (pref_order[preferred[p]]) {
+			for (var j=0; j < pref_order[preferred[p]].length; j++) {
+				for (var i=0; i < response.length; i++) {
+					if (response[i]['class'] == preferred[p] && response[i]['type'] == pref_order[preferred[p]][j]) {
+						return response[i];
+					}
+				}
+			}
+		} else {
+			for (var i=0; i < response.length; i++) {
+				if (response[i]['class'] == preferred[p]) {
+					return response[i];
+				}
+			}
+		}
+	}
+
+	return response[0];
+},
+
+
 // process geocoder response
 _showResults: function(response, parameters) {
 	if(!response){
@@ -78,7 +108,8 @@ _showResults: function(response, parameters) {
 	}
 	
 	// show first result
-	OSRM.Geocoder._onclickResult(parameters.marker_id, response[0].lat, response[0].lon);
+	var defaultPlace = OSRM.Geocoder._getDefaultPlace(response);
+	OSRM.Geocoder._onclickResult(parameters.marker_id, defaultPlace.lat, defaultPlace.lon);
 	if( OSRM.G.markers.route.length > 1 )		// if a route is displayed, we don't need to show other possible geocoding results
 		return;
 	
