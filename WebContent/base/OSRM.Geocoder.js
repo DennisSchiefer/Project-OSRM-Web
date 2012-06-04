@@ -68,9 +68,10 @@ _onclickResult: function(marker_id, lat, lon) {
 // filter default place in Nominatim's response
 _getDefaultPlace: function(response) {
 	// preferred classes
-	var preferred = ['place', 'tourism', 'amenity'];
+	var preferred = ['place', 'tourism', 'amenity', 'railway'] ;
 	var pref_order = new Array();
 	pref_order['place'] = ['country', 'state', 'city', 'town', 'county', 'village', 'hamlet'];
+	pref_order['railway'] = ['station'];
 
 	for (var p=0; p < preferred.length; p++) {
 		if (pref_order[preferred[p]]) {
