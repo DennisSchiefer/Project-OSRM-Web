@@ -348,6 +348,16 @@ html, body {
 	color:#ff0000
 }
 
+.results-body-class
+{
+	vertical-align:top;
+	cursor:pointer;
+	color:#000000
+}
+.results-body-class:hover
+{
+	color:#ff0000
+}
 
 /* style for main-output information-box -> table (driving directions) */
 .description

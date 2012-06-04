@@ -94,6 +94,7 @@ _showResults: function(response, parameters) {
  
 		html += '<tr class="'+rowstyle+'">';
 		html += '<td class="results-body-counter"><span">'+(i+1)+'.</span></td>';
+		html += '<td class="results-body-class" onclick="OSRM.Geocoder._onclickResult(\''+parameters.marker_id+'\', '+result.lat+', '+result.lon+');"><span">'+result.class+'/'+result.type+'</span></td>';
 		html += '<td class="results-body-items">';
 
 		if(result.display_name){
