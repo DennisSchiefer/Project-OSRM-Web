@@ -22,4 +22,6 @@ td[rel='boundary:administrative'] { background-image: url('features/pois/poi_bou
 td[rel='amenity:place_of_worship'] { background-image: url('features/pois/place_of_worship_unknown3.n.24.png'); }
 
 
-td[rel='natural:beach'] { background-image: url('features/natural__beach.png');
+td[rel='natural:beach'] { background-image: url('features/natural__beach.png'); }
+
+td[rel='shop:clothes'] { background-image: url('features/pois/shopping_clothes.n.24.png'); }
