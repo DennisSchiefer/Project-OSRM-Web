@@ -329,13 +329,17 @@ html, body {
 	text-align:right;
 	vertical-align:top;
 	font-weight:bold;
+	width: 25px;
+	height: 25px;
 	padding:1px 5px 1px 5px;
+	background-image: url('images/place.png');
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
 }
 .results-body-items
 {
 	text-align:left;
 	vertical-align: middle;
-	width:100%;
 	padding:1px;
 }
 .results-body-item
