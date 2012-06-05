@@ -5,23 +5,24 @@ td.building { background-image: url('features/pois/building_generic.png'); }
 td.railway { background-image: url('features/railway__rail.png'); }
 
 // specific
-td[rel='place:city'] { background-image: url('features/pois/poi_place_city.p.24.png'); }
-td[rel='place:town'] { background-image: url('features/pois/poi_place_town.p.24.png'); }
-td[rel='place:suburb'] { background-image: url('features/pois/poi_place_suburb.p.24.png'); }
-td[rel='place:village'] { background-image: url('features/pois/poi_place_village.p.24.png'); }
-td[rel='place:hamlet'] { background-image: url('features/pois/poi_place_hamlet.p.24.png'); }
+td[rel='place:city'] { background-image: url('icons/svg/poi/place_city.svg'); }
+td[rel='place:town'] { background-image: url('icons/svg/poi/place_town.svg'); }
+td[rel='place:suburb'] { background-image: url('icons/svg/poi/place_suburb.svg'); }
+td[rel='place:village'] { background-image: url('icons/svg/poi/place_village.svg'); }
+td[rel='place:hamlet'] { background-image: url('icons/svg/poi/place_hamlet.svg'); }
 
 td[rel='highway:residential'] { background-image: url('features/highway__residential.png'); }
 
-td[rel='highway:bus_stop'] { background-image: url('features/pois/transport_bus_stop2.n.24.png'); }
-td[rel='amenity:bus_station'] { background-image: url('features/amenity__bus_station.png'); }
+td[rel='highway:bus_stop'] { background-image: url('icons/svg/transport/bus_stop2.svg'); }
+td[rel='amenity:bus_station'] { background-image: url('icons/svg/transport/bus_station.svg'); }
 
 
-td[rel='boundary:administrative'] { background-image: url('features/pois/poi_boundary_administrative.n.24.png'); }
+td[rel='boundary:administrative'] { background-image: url('icons/svg/poi/boundary_administrative.svg'); }
 
-td[rel='amenity:place_of_worship'] { background-image: url('features/pois/place_of_worship_unknown3.n.24.png'); }
+td[rel='amenity:place_of_worship'] { background-image: url('icons/svg/place_of_worship/unknown3.svg'); }
 
 
-td[rel='natural:beach'] { background-image: url('features/natural__beach.png'); }
+td[rel='natural:beach'] { background-image: url('icons/svg/tourist/beach.svg'); }
+td[rel='natural:peak'] { background-image: url('icons/svg/poi/peak2.svg'); }
 
-td[rel='shop:clothes'] { background-image: url('features/pois/shopping_clothes.n.24.png'); }
+td[rel='shop:clothes'] { background-image: url('icons/svg/shopping/clothes.svg'); }
