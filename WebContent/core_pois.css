@@ -8,6 +8,7 @@ td.railway { background-image: url('features/railway__rail.png'); }
 td[rel='place:city'] { background-image: url('icons/svg/poi/place_city.svg'); }
 td[rel='place:town'] { background-image: url('icons/svg/poi/place_town.svg'); }
 td[rel='place:suburb'] { background-image: url('icons/svg/poi/place_suburb.svg'); }
+td[rel='place:county'] { background-image: url('icons/svg/poi/place_suburb.svg'); }
 td[rel='place:village'] { background-image: url('icons/svg/poi/place_village.svg'); }
 td[rel='place:hamlet'] { background-image: url('icons/svg/poi/place_hamlet.svg'); }
 td[rel='place:locality'] { background-image: url('icons/svg/poi/place_hamlet.svg'); }
