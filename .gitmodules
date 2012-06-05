@@ -1,0 +1,3 @@
+[submodule "WebContent/icons"]
+	path = WebContent/icons
+	url = https://github.com/twain47/Open-SVG-Map-Icons.git

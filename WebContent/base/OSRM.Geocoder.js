@@ -93,7 +93,7 @@ _showResults: function(response, parameters) {
 		if(i%2==0) { rowstyle='results-body-even'; }
  
 		html += '<tr class="'+rowstyle+'">';
-		html += '<td class="results-body-counter"><span">'+(i+1)+'.</span></td>';
+		html += '<td class="results-body-counter '+result['class']+'" rel="'+result['class']+':'+result['type']+'" title="'+result['class']+':'+result['type']+'" onclick="OSRM.Geocoder._onclickResult(\''+parameters.marker_id+'\', '+result.lat+', '+result.lon+');"></td>';
 		html += '<td class="results-body-items">';
 
 		if(result.display_name){
