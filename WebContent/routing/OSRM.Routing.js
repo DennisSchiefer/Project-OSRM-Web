@@ -181,6 +181,9 @@ _snapRoute: function() {
  	OSRM.Geocoder.updateAddress(OSRM.C.TARGET_LABEL);
 
 	OSRM.G.markers.relabelViaMarkers();
+
+	var bounds = new L.LatLngBounds( OSRM.G.route._current_route.getPositions() );
+	OSRM.G.map.fitBoundsUI(bounds);
 }
 
 };
