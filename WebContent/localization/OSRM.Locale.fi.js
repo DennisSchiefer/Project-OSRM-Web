@@ -27,8 +27,8 @@ OSRM.Localization["fi"] = {
 "GUI_START": "Lähtöpaikka",
 "GUI_END": "Määränpää",
 "GUI_RESET": "Tyhjennä",
-"GUI_ZOOM_ON_ROUTE": "Zoom reitillä",
-"GUI_ZOOM_ON_USER": "Zoom käyttäjä",
+"GUI_ZOOM_ON_ROUTE": "Näytä reitti",
+"GUI_ZOOM_ON_USER": "Näytä oma sijainti",
 "GUI_SEARCH": "Etsi",
 "GUI_REVERSE": "Käänteinen&nbsp;reitti",
 "GUI_START_TOOLTIP": "Syötä lähtöpaikka",
@@ -37,11 +37,11 @@ OSRM.Localization["fi"] = {
 "GUI_ZOOM_IN": "Lähennä",
 "GUI_ZOOM_OUT": "Loitonna",
 // config
-"GUI_CONFIGURATION": "Kokoonpano",
+"GUI_CONFIGURATION": "Asetukset",
 "GUI_LANGUAGE": "Kieli",
 "GUI_UNITS": "Yksiköt",
 "GUI_KILOMETERS": "Kilometri",
-"GUI_MILES": "Miles",
+"GUI_MILES": "Maili",
 // mapping
 "GUI_MAPPING_TOOLS": "Kartoitustyökalut",
 "GUI_HIGHLIGHT_UNNAMED_ROADS": "Korosta nimettömät tiet",
@@ -53,7 +53,7 @@ OSRM.Localization["fi"] = {
 "FOUND_X_RESULTS": "Löytyi %i vaihtoehtoa",
 "TIMED_OUT": "Aikakatkaisu",
 "NO_RESULTS_FOUND": "Ei hakutuloksia",
-"NO_RESULTS_FOUND_SOURCE": "Ei hakutuloksia lähtöpaikka",
+"NO_RESULTS_FOUND_SOURCE": "Ei hakutuloksia lähtöpaikalle",
 "NO_RESULTS_FOUND_TARGET": "Ei hakutuloksia määränpäälle",
 // routing
 "ROUTE_DESCRIPTION": "Reittiohjeet",
@@ -67,9 +67,9 @@ OSRM.Localization["fi"] = {
 "NO_ROUTE_FOUND": "Reittiä ei löytynyt",
 // printing
 "OVERVIEW_MAP": "Yleiskuvakartta",
-"NO_ROUTE_SELECTED": "Ei reitti valittu",
+"NO_ROUTE_SELECTED": "Ei reittiä valittu",
 // routing engines
-"ENGINE_0": "Auton (nopein)",
+"ENGINE_0": "Auto (nopein)",
 // directions
 "N": "pohjoiseen",
 "E": "itään",
