@@ -157,40 +157,40 @@ OSRM.Localization["nl"] = {
 "HIGHWAY_road": "weg",
 // notifications
 "NOTIFICATION_MAINTENANCE_HEADER":	"Gepland onderhoud",
-"NOTIFICATION_MAINTENANCE_BODY":	"The OSRM Website is down for a scheduled maintenance. " + 
-									"Please be patient while required updates are performed. " +
-									"The site will be back online shortly." +
+"NOTIFICATION_MAINTENANCE_BODY":	"De website van OSRM Website is gesloten wegens gepland onderhoud. " + 
+									"Even geduld aub terwijl de vereiste updates worde uitgevoerd. " +
+									"De site zal op korte termijn weer beschikbaar zijn." +
 									"<br/><br/>" + 
-									"In the meantime you may want to go out an map a friendly neighborhood near you..." + 
+									"In de tussentijd wilt u misschien naar buiten gaan en een nabije vriendelijke buurt in kaart brengen..." + 
 									"<br/><br/><br/>[OSRM]",
-"NOTIFICATION_LOCALIZATION_HEADER":	"Did you know? You can change the display language.",
-"NOTIFICATION_LOCALIZATION_BODY":	"You can use the pulldown menu in the upper left corner to select your favorite language. " +
+"NOTIFICATION_LOCALIZATION_HEADER":	"Wist u dat...? U de taal voor de weergave kunt wijzigen.",
+"NOTIFICATION_LOCALIZATION_BODY":	"U kunt het openklapmenu in de linker bovenhoek gebruiken om uw favoriete taal te kiezen. " +
 									"<br/><br/>" +
-									"Don't despair if you cannot find your language of choice. " +
-									"If you want, you can help to provide additional translations! " +
-									"Visit <a href='https://github.com/DennisSchiefer/Project-OSRM-Web'>here</a> for more information.",
-"NOTIFICATION_CLICKING_HEADER":		"Did you know? You can click on the map to set route markers.",
-"NOTIFICATION_CLICKING_BODY":		"You can click on the map with the left mouse button to set a source marker (green) or a target marker (red), " +
-									"if the source marker already exists. " +
-									"The address of the selected location will be displayed in the boxes to the left. " + 
+									"Raak niet in paniek als u de door u gewenste keuze voor de taal niet kunt vinden. " +
+									"Als u wilt kunt u helpen door aanvullend evertalingen te leveren! " +
+									"Kijk <a href='https://github.com/DennisSchiefer/Project-OSRM-Web'>hier</a> voor meer informatie.",
+"NOTIFICATION_CLICKING_HEADER":		"Wist u dat...? U op de kaart kunt klikken om markeringen voor de route te plaatsen.",
+"NOTIFICATION_CLICKING_BODY":		"Klik met de linker muisknop op de kaart om een markering voor het beginpunt (groen) of bestemming (rood) te plaatsen, " +
+									"ald de marking voor het beginpunt al bestaat. " +
+									"Het adres van de geselecteerde locatie zal worden weergegeven in fe vakken aan de linkerkant. " + 
 									"<br/><br/>" +
-									"You can delete a marker by clicking on it again with the left mouse button.",
-"NOTIFICATION_DRAGGING_HEADER":		"Did you know? You can drag each route marker on the map.",
-"NOTIFICATION_DRAGGING_BODY":		"You can drag a marker by clicking on it with the left mouse button and holding the button pressed. " +
-									"Then you can move the marker around the map and the route will be updated instantaneously. " +
+									"U kunt eenmarkering verwijderen door er nogmaals op te klikken met de linker muisknop.",
+"NOTIFICATION_DRAGGING_HEADER":		"Wist u dat...? U elke markering voor de route op de kaart kunt slepen.",
+"NOTIFICATION_DRAGGING_BODY":		"U kunt een markering slepen door er op te klikken met de linker muisknop en de knop ingedrukt te houden. " +
+									"Kan kunt u de markerering over de kaart verplaatsen en de route zal tegelijkertijd worden bijgewerkt. " +
 									"<br/><br/>" +
-									"You can even create intermediate markers by dragging them off of the main route! ",
-"NOTIFICATION_GEOCODERWAIT_HEADER":	"Waiting on Geocoder",
-"NOTIFICATION_GEOCODERWAIT_BODY":	"Waiting on results from geocoder.",
-"NOTIFICATION_GEOCODERFAIL_HEADER":	"Geocoder Failure",
-"NOTIFICATION_GEOCODERFAIL_BODY":	"Failed to retrieve coordinates from geocoder.",
+									"U kunt zelfs tussenliggende markeringen maken door ze van de hoofdroute te slepen! ",
+"NOTIFICATION_GEOCODERWAIT_HEADER":	"Wachten op Geocoder",
+"NOTIFICATION_GEOCODERWAIT_BODY":	"Wachten on resultaten van geocoder.",
+"NOTIFICATION_GEOCODERFAIL_HEADER":	"Geocoder mislukt",
+"NOTIFICATION_GEOCODERFAIL_BODY":	"Ophalen van coördinaten van geocoder mislukt.",
 // do not translate below this line
-"GUI_LEGAL_NOTICE": "Routing by <a href='http://project-osrm.org/'>Project OSRM</a> - Geocoder by <a href='http://wiki.openstreetmap.org/wiki/Nominatim'>Nominatim</a> - OSRM hosting by <a href='http://algo2.iti.kit.edu/'>KIT</a>",
-"GUI_DATA_TIMESTAMP": "data: ",
+"GUI_LEGAL_NOTICE": "Routeren door <a href='http://project-osrm.org/'>Project OSRM</a> - Geocoder door <a href='http://wiki.openstreetmap.org/wiki/Nominatim'>Nominatim</a> - OSRM hosting door <a href='http://algo2.iti.kit.edu/'>KIT</a>",
+"GUI_DATA_TIMESTAMP": "gegevens: ",
 "GUI_VERSION": "gui: ",
 "QR": "QR"
 };
 
 // set GUI language on load
 if( OSRM.DEFAULTS.LANUGAGE_ONDEMAND_RELOADING == true )
-	OSRM.Localization.setLanguage("en", true);
+	OSRM.Localization.setLanguage("nl", true);
