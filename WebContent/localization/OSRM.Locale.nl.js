@@ -25,7 +25,7 @@ OSRM.Localization["nl"] = {
 "LANGUAGE": "Nederlands",
 // gui
 "GUI_START": "Vertrekpunt",
-"GUI_END": "Bestemmingg",
+"GUI_END": "Bestemming",
 "GUI_RESET": "&nbsp;&nbsp;Herstellen&nbsp;&nbsp;",
 "GUI_ZOOM_ON_ROUTE": "Zoomen op route",
 "GUI_ZOOM_ON_USER": "Zoomen op gebruiker",
