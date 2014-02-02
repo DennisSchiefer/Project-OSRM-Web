@@ -16,7 +16,7 @@ or see http://www.gnu.org/licenses/agpl.txt.
 */
 
 // OSRM localization
-// [English language support]
+// [Dutch language support / Nederlandse taalondersteuning]
 
 
 OSRM.Localization["nl"] = {
