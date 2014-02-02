@@ -19,13 +19,13 @@ or see http://www.gnu.org/licenses/agpl.txt.
 // [English language support]
 
 
-OSRM.Localization["en"] = {
+OSRM.Localization["nl"] = {
 // own language
-"CULTURE": "en-US",
-"LANGUAGE": "English",
+"CULTURE": "nl-NL",
+"LANGUAGE": "Nederlands",
 // gui
-"GUI_START": "Start",
-"GUI_END": "End",
+"GUI_START": "Begin",
+"GUI_END": "Einde",
 "GUI_RESET": "&nbsp;&nbsp;Reset&nbsp;&nbsp;",
 "GUI_ZOOM_ON_ROUTE": "Zoom onto Route",
 "GUI_ZOOM_ON_USER": "Zoom onto User",
